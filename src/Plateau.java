@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Plateau {
+public abstract class Plateau {
     //attribut
     protected Case[][] grille;
 

@@ -30,10 +30,15 @@ public class CaseLed extends Case {
         //methode perso
 
         /**
-         *Methode permettant de passer une case d'un etat a l'autre (allumé/true et eteinte/false)
+         *Methode permettant de passer une case d'un état a l'autre (allumé/true et eteinte/false)
          */
         public void changeEtat(){
-
+            if(estAllumée){
+                estAllumée = false;
+            }
+            else {
+                estAllumée = true;
+            }
         }
 
     @Override

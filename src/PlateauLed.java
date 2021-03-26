@@ -1,7 +1,7 @@
 public class PlateauLed extends Plateau{
 
     /**
-     * Constructeur permettant de faire un plateau de taille heuteur*largeur
+     * Constructeur permettant de faire un plateau de taille hauteur*largeur
      * @param hauteur
      * @param largeur
      */
